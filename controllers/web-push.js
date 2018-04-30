@@ -18,7 +18,8 @@ function pushNotification(req, res) {
             title: 'Testando Push Notification',
             body: 'Notificação enviada com sucesso',
             icon: 'https://raw.githubusercontent.com/voodootikigod/logo.js/master/js.png',
-            data: 'additional data'
+            data: 'additional data',
+            vibrate: [300, 100, 400]
         }
     });
 
