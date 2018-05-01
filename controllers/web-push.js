@@ -18,7 +18,9 @@ function pushNotification(req, res) {
             title: 'Testando Push Notification',
             body: 'Notificação enviada com sucesso',
             icon: 'https://raw.githubusercontent.com/voodootikigod/logo.js/master/js.png',
-            data: 'additional data',
+            data: {
+                url: 'https://gpfpwa.tk'
+            },
             vibrate: [300, 100, 400]
         }
     });
